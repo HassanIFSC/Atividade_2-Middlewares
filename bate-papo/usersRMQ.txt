@@ -1,0 +1,13 @@
+# bate-papo_1
+
+rabbitmqctl add_user chat_1 chat_1
+rabbitmqctl set_user_tags chat_1 administrator
+rabbitmqctl set_permissions -p / chat_1 ".*" ".*" ".*"
+
+----------------------------------------------------------------
+
+# bate-papo_2
+
+rabbitmqctl add_user chat_2 chat_2
+rabbitmqctl set_user_tags chat_2 administrator
+rabbitmqctl set_permissions -p / chat_2 ".*" ".*" ".*"
